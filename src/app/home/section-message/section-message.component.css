@@ -2,7 +2,7 @@
     width: 100%;
     display: block;
     /* background: url(src/assets/images/slider-bg.jpg) no-repeat; */
-    background-color: #236094;
+    background-color: #4d4d92;
     padding-top: 0px;
     background-attachment: fixed;
     background-size: cover;
@@ -28,7 +28,7 @@
     }
     .servicesHome h5 {
     background: #fff;
-    color: #236094;
+    color: #4d4d92;
     border-radius: 3px;
     padding: 10px;
     }
@@ -92,7 +92,7 @@
     }
     .namo .namo-quote {
         width: 60%;
-        background: #236094;
+        background: #4d4d92;
         padding-right: 30px;
         display: flex;
         flex-direction: column;
@@ -135,7 +135,7 @@
     }
     .video-section img {
         width: 100%;
-        height: auto;
+        height: 100%;
     }
     @media (min-width: 768px){
     .col-md-4 {
@@ -284,7 +284,7 @@
             background: transparent;
         }
         .header-inner ul.navbar-nav .nav-item:hover .nav-link {
-            color: #236094;
+            color: #4d4d92;
         }
         .navbar-nav .nav-item .dropdown-menu {
             background-color: #f3f3f3;

@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'dnhs-upper-primary'`, () => {
+  it(`should have as title 'dnhs-secondary-higher-secondary'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('dnhs-upper-primary');
+    expect(app.title).toEqual('dnhs-secondary-higher-secondary');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('dnhs-upper-primary app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('dnhs-secondary-higher-secondary app is running!');
   });
 });
